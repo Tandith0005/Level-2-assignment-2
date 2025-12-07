@@ -37,7 +37,7 @@ A production-ready backend API built with **Node.js**, **TypeScript**, **Express
 
 ### 1️⃣ Clone the repository
 ```sh
-git clone <repo-url>
+git clone https://github.com/Tandith0005/Level-2-assignment-2.git
 cd vehicle-rental-system
 ```
 
