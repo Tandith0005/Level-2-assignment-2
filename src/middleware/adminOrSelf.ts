@@ -3,11 +3,11 @@ export const isAdminOrSelf = (req : Request, res : Response, next : NextFunction
   const user = req.user; 
   const paramId = req.params.userId;
 
-  if (user.role === "admin") {
+  if (user!.role === "admin") {
     return next();
   }
 
-  if (user.id === Number(paramId)) {
+  if (user!.id === Number(paramId)) {
     return next();
   }
 
